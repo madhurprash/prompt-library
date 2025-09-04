@@ -38,7 +38,7 @@ Analyzes stocks and portfolios using Professor Aswath Damodaran's valuation prin
 1. Navigate to the desired prompt template folder
 2. Copy the `template.txt` file
 3. Replace placeholder values (URLs, stock symbols, etc.) with your specific inputs
-4. Run the prompt through Claude or another compatible AI model
+4. Copy and paste the hydrated prompt into Claude Desktop, Perplexity, or your AI assistant of choice
 5. Save the results in the corresponding results file
 
 ## Prompt Design Principles
