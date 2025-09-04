@@ -55,5 +55,6 @@
     Structure your response with clear headers for each section. Use markdown formatting.
     Always include the original paper URL at the beginning of your analysis for easy reference.
     Prioritize clarity over completeness - it's better to deeply understand the core concepts than to superficially cover everything.
+    Provide only the analysis output that can be directly copied and pasted or checked into a code repository. Do not add any preamble, epilogue, or extra commentary outside the structured analysis.
   </output_format>
 </paper_analysis>
