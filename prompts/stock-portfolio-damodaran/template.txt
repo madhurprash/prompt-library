@@ -1,0 +1,105 @@
+<stock_analysis>
+  <company_symbol>INSERT_STOCK_SYMBOL_HERE</company_symbol>
+  <portfolio_context>INSERT_PORTFOLIO_CONTEXT_HERE</portfolio_context>
+
+  <instructions>
+    Analyze this stock using Professor Aswath Damodaran's valuation framework and investment philosophy. Follow his systematic approach to separate story from numbers and assess true intrinsic value.
+
+    <phase_1_story>
+      Start with the Investment Story:
+      - What is the company's core business model and competitive advantages?
+      - What is the narrative driving current market valuation?
+      - What are the key value drivers and growth assumptions embedded in the stock price?
+      - How sustainable are these competitive advantages over time?
+      - What could go right/wrong with this investment thesis?
+    </phase_1_story>
+
+    <phase_2_business_fundamentals>
+      Analyze Business Quality (Damodaran's "Good Company" metrics):
+      - Return on invested capital (ROIC) trends and sustainability
+      - Revenue growth quality (organic vs. acquisition-driven)
+      - Profit margin trends and competitive positioning
+      - Cash flow generation and capital allocation efficiency
+      - Management quality and corporate governance assessment
+      - Debt levels and financial health evaluation
+    </phase_2_business_fundamentals>
+
+    <phase_3_valuation>
+      Perform Multi-Method Valuation:
+      
+      **Intrinsic Value Approaches:**
+      - Discounted Cash Flow (DCF) with multiple scenarios
+      - Dividend Discount Model (if applicable)
+      - Asset-based valuation (if relevant)
+      
+      **Relative Valuation:**
+      - Industry peer comparison (P/E, P/B, EV/EBITDA, P/S ratios)
+      - Historical valuation ranges for the company
+      - Market multiple trends and sector context
+      
+      **Key Inputs to Justify:**
+      - Cost of equity and WACC assumptions
+      - Growth rate assumptions (short-term and terminal)
+      - Margin assumptions and competitive dynamics
+      - Capital expenditure and working capital needs
+    </phase_3_valuation>
+
+    <phase_4_risk_assessment>
+      Risk Analysis Framework:
+      - Business risk factors (competition, technology disruption, regulation)
+      - Financial risk (debt levels, cash flow volatility)
+      - Market risk (beta, correlation with economic cycles)
+      - Company-specific risks and black swan possibilities
+      - ESG considerations and sustainability risks
+      - Currency and geographical exposure risks
+    </phase_4_risk_assessment>
+
+    <phase_5_price_vs_value>
+      Price vs. Value Reconciliation:
+      - Current market price vs. calculated intrinsic value
+      - Margin of safety analysis
+      - What the market is pricing in vs. your base case
+      - Key value inflection points and catalysts
+      - Probability-weighted scenario analysis
+      - Time horizon considerations for value realization
+    </phase_5_price_vs_value>
+
+    <phase_6_portfolio_fit>
+      Portfolio Context Analysis:
+      - How does this investment fit within overall portfolio strategy?
+      - Diversification benefits or concentration risks
+      - Correlation with existing holdings
+      - Position sizing considerations based on conviction level
+      - Tax implications and holding period strategy
+      - Risk-adjusted return expectations vs. alternatives
+    </phase_6_portfolio_fit>
+
+    <phase_7_decision_framework>
+      Investment Decision Summary:
+      - Clear buy/hold/sell recommendation with rationale
+      - Key assumptions that must hold true for investment thesis
+      - Monitoring metrics and potential exit triggers
+      - What could change your investment thesis?
+      - Expected return scenarios (bear/base/bull case)
+      - Maximum position size recommendation with reasoning
+    </phase_7_decision_framework>
+  </instructions>
+
+  <damodaran_principles>
+    Apply these core Damodaran principles throughout:
+    - "Price is what you pay, value is what you get"
+    - Every valuation is wrong, but some are useful
+    - Growth is not free - it must be earned through returns exceeding cost of capital
+    - The market can be wrong in the short term but tends toward efficiency over time
+    - Risk and return are joined at the hip - higher expected returns require higher risk
+    - Stories without numbers are fairy tales; numbers without stories are spreadsheets
+    - Be contrarian but not contrary - disagree with the market only when you have good reason
+  </damodaran_principles>
+
+  <output_format>
+    Structure your response with clear headers for each phase. Use markdown formatting.
+    Include specific numerical analysis where possible, but always connect numbers back to business fundamentals.
+    Be explicit about your assumptions and acknowledge uncertainty ranges.
+    Conclude with a clear, actionable investment recommendation.
+  </output_format>
+</stock_analysis>
