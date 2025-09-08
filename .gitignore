@@ -1,0 +1,4 @@
+# Stock portfolio analysis directory - exclude everything except templates
+prompts/stock-portfolio-damodaran/*
+!prompts/stock-portfolio-damodaran/template.txt
+!prompts/stock-portfolio-damodaran/portfolio-analysis-template.txt
