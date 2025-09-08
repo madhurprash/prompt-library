@@ -1,105 +1,269 @@
-<stock_analysis>
-  <company_symbol>INSERT_STOCK_SYMBOL_HERE</company_symbol>
-  <portfolio_context>INSERT_PORTFOLIO_CONTEXT_HERE</portfolio_context>
+<portfolio_analysis>
+  <portfolio_data>
+    INSERT_PORTFOLIO_DATA_HERE
+    
+    Format example:
+    Stock Symbol | Current Position (shares/%) | Purchase Price | Current Price | Market Cap | Industry
+    AAPL | 50 shares (15%) | $150 | $175 | $2.8T | Technology
+    MSFT | 30 shares (12%) | $250 | $280 | $2.1T | Technology
+    ... (continue for each holding)
+  </portfolio_data>
+
+  <portfolio_context>
+    Investment Horizon: INSERT_TIME_HORIZON_HERE
+    Risk Tolerance: INSERT_RISK_TOLERANCE_HERE
+    Investment Goals: INSERT_GOALS_HERE
+    Current Cash Position: INSERT_CASH_PERCENTAGE_HERE
+    Total Portfolio Value: INSERT_TOTAL_VALUE_HERE
+  </portfolio_context>
 
   <instructions>
-    Analyze this stock using Professor Aswath Damodaran's valuation framework and investment philosophy. Follow his systematic approach to separate story from numbers and assess true intrinsic value.
+    Analyze this stock portfolio using Professor Aswath Damodaran's comprehensive valuation framework. Provide individual stock recommendations and overall portfolio assessment.
 
-    <phase_1_story>
-      Start with the Investment Story:
-      - What is the company's core business model and competitive advantages?
-      - What is the narrative driving current market valuation?
-      - What are the key value drivers and growth assumptions embedded in the stock price?
-      - How sustainable are these competitive advantages over time?
-      - What could go right/wrong with this investment thesis?
-    </phase_1_story>
+    <individual_stock_analysis>
+      For each stock in the portfolio, provide:
 
-    <phase_2_business_fundamentals>
-      Analyze Business Quality (Damodaran's "Good Company" metrics):
-      - Return on invested capital (ROIC) trends and sustainability
-      - Revenue growth quality (organic vs. acquisition-driven)
-      - Profit margin trends and competitive positioning
-      - Cash flow generation and capital allocation efficiency
-      - Management quality and corporate governance assessment
-      - Debt levels and financial health evaluation
-    </phase_2_business_fundamentals>
+      **Story vs Numbers Reconciliation:**
+      - Current market narrative driving the stock price
+      - Key value drivers and growth assumptions embedded in current valuation
+      - Whether the story is sustainable and supported by fundamentals
 
-    <phase_3_valuation>
-      Perform Multi-Method Valuation:
-      
-      **Intrinsic Value Approaches:**
-      - Discounted Cash Flow (DCF) with multiple scenarios
-      - Dividend Discount Model (if applicable)
-      - Asset-based valuation (if relevant)
-      
-      **Relative Valuation:**
-      - Industry peer comparison (P/E, P/B, EV/EBITDA, P/S ratios)
-      - Historical valuation ranges for the company
-      - Market multiple trends and sector context
-      
-      **Key Inputs to Justify:**
-      - Cost of equity and WACC assumptions
-      - Growth rate assumptions (short-term and terminal)
-      - Margin assumptions and competitive dynamics
-      - Capital expenditure and working capital needs
-    </phase_3_valuation>
+      **Business Quality Assessment:**
+      - Return on invested capital (ROIC) and sustainability
+      - Competitive advantages (moats) and their durability  
+      - Management quality and capital allocation track record
+      - Financial health and debt levels
 
-    <phase_4_risk_assessment>
-      Risk Analysis Framework:
-      - Business risk factors (competition, technology disruption, regulation)
-      - Financial risk (debt levels, cash flow volatility)
-      - Market risk (beta, correlation with economic cycles)
-      - Company-specific risks and black swan possibilities
-      - ESG considerations and sustainability risks
-      - Currency and geographical exposure risks
-    </phase_4_risk_assessment>
-
-    <phase_5_price_vs_value>
-      Price vs. Value Reconciliation:
-      - Current market price vs. calculated intrinsic value
+      **Valuation Analysis:**
+      - Intrinsic value estimation using DCF methodology
+      - Relative valuation vs industry peers and historical ranges
       - Margin of safety analysis
-      - What the market is pricing in vs. your base case
-      - Key value inflection points and catalysts
-      - Probability-weighted scenario analysis
-      - Time horizon considerations for value realization
-    </phase_5_price_vs_value>
+      - What the current price implies about growth and returns
 
-    <phase_6_portfolio_fit>
-      Portfolio Context Analysis:
-      - How does this investment fit within overall portfolio strategy?
-      - Diversification benefits or concentration risks
-      - Correlation with existing holdings
-      - Position sizing considerations based on conviction level
-      - Tax implications and holding period strategy
-      - Risk-adjusted return expectations vs. alternatives
-    </phase_6_portfolio_fit>
+      **Risk Assessment:**
+      - Company-specific risks and potential disruption threats
+      - Financial and operational risks
+      - Market and macroeconomic sensitivities
+      - Scenario analysis (bear/base/bull cases)
 
-    <phase_7_decision_framework>
-      Investment Decision Summary:
-      - Clear buy/hold/sell recommendation with rationale
-      - Key assumptions that must hold true for investment thesis
-      - Monitoring metrics and potential exit triggers
-      - What could change your investment thesis?
-      - Expected return scenarios (bear/base/bull case)
-      - Maximum position size recommendation with reasoning
-    </phase_7_decision_framework>
+      **Clear Recommendation:**
+      - **BUY/HOLD/SELL** with specific rationale
+      - Target price range and time horizon
+      - Position sizing recommendation (increase/maintain/decrease)
+      - Key catalysts and monitoring metrics
+      - Stop-loss or exit triggers
+    </individual_stock_analysis>
+
+    <portfolio_level_analysis>
+      **Portfolio Construction Assessment:**
+      - Diversification analysis across sectors, geographies, and market caps
+      - Concentration risk evaluation (single positions >10% of portfolio)
+      - Correlation analysis between major holdings
+      - Portfolio beta and risk-return profile
+
+      **Valuation Summary:**
+      - Weighted average P/E, P/B, and other key multiples
+      - Portfolio-level margin of safety
+      - Expected return range based on individual stock analyses
+      - Risk-adjusted return expectations vs market benchmarks
+
+      **Strategic Asset Allocation:**
+      - Current sector/geographic allocation vs optimal allocation
+      - Cash position assessment and deployment recommendations  
+      - Position sizing optimization based on conviction levels
+      - Rebalancing recommendations with specific actions
+
+      **Portfolio Risks and Hedging:**
+      - Key portfolio-level risks and concentrations
+      - Macroeconomic sensitivities and hedging needs
+      - Liquidity considerations and position sizes
+      - Tax implications of recommended changes
+
+      **Overall Portfolio Recommendation:**
+      - **OVERWEIGHT/NEUTRAL/UNDERWEIGHT EQUITIES** recommendation
+      - Specific buy/sell/hold actions for portfolio rebalancing
+      - Cash deployment or harvest recommendations
+      - Timeline for implementing changes
+      - Expected portfolio returns and risk metrics over investment horizon
+    </portfolio_level_analysis>
+
+    <actionable_implementation_plan>
+      **Week-by-Week Execution Plan (Next 4-8 Weeks):**
+      Create a detailed weekly execution schedule with specific limit orders:
+      
+      Week 1:
+      - SELL orders: Stock symbol, shares to sell, recommended limit price (e.g., "SELL 20 shares NVDA at limit $175+")
+      - BUY orders: Stock symbol, shares to buy, recommended limit price (e.g., "BUY 15 shares XLV at limit $130 or below")
+      
+      Week 2-4:
+      - Continue rebalancing with specific limit orders
+      - Include entry and exit price targets
+      - Stagger large positions over multiple weeks to reduce market impact
+      
+      **Immediate Actions (Next 30 Days):**
+      - Specific buy/sell orders with quantities and timing
+      - Portfolio rebalancing steps in order of priority
+      - Risk management actions if needed
+      - For new sector exposure: If recommending sectors not currently in portfolio, suggest either:
+        * Relevant S&P sector ETF (e.g., XLE for energy, XLV for healthcare, XLI for industrials, XLRE for real estate)
+        * Specific best-in-class stock if there's a clear winner (e.g., UNH for healthcare, XOM for energy, PLD for real estate)
+        * Include exact share quantities to achieve target sector weight
+
+      **Medium-term Strategy (3-12 Months):**
+      - Position building or reduction plans
+      - Sector rotation or geographic reallocation
+      - Cash management and deployment schedule
+      - Gradual sector diversification through ETFs or individual winners
+
+      **Monitoring Framework:**
+      - Key metrics to track for each position
+      - Quarterly portfolio review checklist
+      - Trigger points for position changes
+      - Performance benchmarks and evaluation criteria
+
+      **Risk Management Rules:**
+      - Maximum position sizes by conviction level
+      - Stop-loss rules and exit criteria
+      - Correlation limits and diversification requirements
+      - Cash buffer and liquidity requirements
+    </actionable_implementation_plan>
+
+    <critical_reflection_and_validation>
+      **Before finalizing recommendations, perform this critical reflection:**
+
+      **Best-in-Class Validation:**
+      For each BUY recommendation, ask:
+      - Is this truly the best option in its sector/category for the investor's goals?
+      - Are there better alternatives with superior fundamentals, valuation, or growth prospects?
+      - Does this choice align with the specific investment timeline and risk tolerance?
+
+      **Sector/ETF Selection Review:**
+      For each recommended ETF or sector play:
+      - Is this the optimal ETF for exposure to this sector? (Compare expense ratios, holdings, performance)
+      - For dividend ETFs: Compare SCHD, VYM, VIG, NOBL - which is best for this investor's income needs?
+      - For sector ETFs: Are we recommending XLV, XLI, XLE, XLF, etc. or are there better sector options?
+      - For broad market: Is VOO, VTI, SPY, or IVV most appropriate?
+
+      **Hold vs Sell Decision Challenge:**
+      For each HOLD recommendation:
+      - Is holding truly optimal or are we being too conservative?
+      - Would this position be better replaced with a higher-conviction opportunity?
+      - Is the position size appropriate for the conviction level?
+
+      **Sell Recommendation Validation:**
+      For each SELL recommendation:
+      - Are we selling for the right reasons (valuation, allocation, or fundamental deterioration)?
+      - Is the timing appropriate given market conditions and tax implications?
+      - Are we being too hasty or appropriately decisive?
+
+      **Alternative Consideration:**
+      For each recommendation, briefly consider:
+      - What alternative stocks/ETFs could serve the same purpose?
+      - Why is our choice superior to the obvious alternatives?
+      - Are we missing any obvious best-in-class options?
+
+      **Final Validation Questions:**
+      - Do all recommendations collectively create the optimal portfolio for this investor?
+      - Are we prioritizing the most impactful changes first?
+      - Does the overall recommendation set reflect best practices for this investor's profile?
+    </critical_reflection_and_validation>
   </instructions>
 
   <damodaran_principles>
-    Apply these core Damodaran principles throughout:
-    - "Price is what you pay, value is what you get"
-    - Every valuation is wrong, but some are useful
-    - Growth is not free - it must be earned through returns exceeding cost of capital
-    - The market can be wrong in the short term but tends toward efficiency over time
-    - Risk and return are joined at the hip - higher expected returns require higher risk
+    Apply these core Damodaran principles throughout the analysis:
+    - Price is what you pay, value is what you get - focus on intrinsic value vs market price
+    - Growth is not free - it must be earned through returns exceeding cost of capital  
+    - Risk and return are joined at the hip - higher expected returns require accepting higher risk
+    - The market can be wrong in short term but tends toward efficiency over time
     - Stories without numbers are fairy tales; numbers without stories are spreadsheets
-    - Be contrarian but not contrary - disagree with the market only when you have good reason
+    - Every valuation is wrong, but some are useful - acknowledge uncertainty ranges
+    - Diversification is the only free lunch in investing - but over-diversification destroys value
+    - Be contrarian when you have good reason, not just to be different
+    - Time arbitrage - exploit market's short-term focus if you have long-term horizon
+    - Margin of safety is your protection against being wrong about intrinsic value
   </damodaran_principles>
 
   <output_format>
-    Structure your response with clear headers for each phase. Use markdown formatting.
-    Include specific numerical analysis where possible, but always connect numbers back to business fundamentals.
-    Be explicit about your assumptions and acknowledge uncertainty ranges.
-    Conclude with a clear, actionable investment recommendation.
+    Provide the analysis as a structured markdown report using this exact format and structure:
+    
+    # Damodaran-Style Portfolio Analysis & Recommendations
+    
+    ## Executive Summary
+    [Provide 2-3 paragraph overview of portfolio performance, key risks, and strategic recommendations]
+    
+    ## Portfolio Recommendations Summary
+    
+    ### Individual Stock Recommendations
+    | Symbol | Sector | Current Weight | Recommendation | Target Price | Action |
+    |--------|---------|---------------|----------------|--------------|---------|
+    [Complete table for all holdings with specific recommendations]
+    
+    ### Target Sector Distribution
+    | Sector | Current Weight | Target Weight | Over/Underweight | Rebalancing Action |
+    |---------|---------------|---------------|-------------------|-------------------|
+    [Complete sector allocation analysis]
+    
+    ### Specific Trade Execution Plan
+    | Symbol | Current Shares | Action | Shares to Trade | New Position | Rationale |
+    |--------|---------------|---------|-----------------|--------------|-----------|
+    [Complete trade-by-trade execution plan]
+    
+    ## Damodaran Philosophy Reflection
+    [Detailed explanation of how recommendations align with Damodaran's principles: story vs numbers, margin of safety, diversification, risk-return relationship, market efficiency, growth requirements]
+    
+    ## Individual Stock Analysis
+    
+    ### [STOCK SYMBOL] ([X.X% of portfolio]) - **[BUY/HOLD/SELL]** ⭐⭐⭐ 
+    **Story vs Numbers:** [Analysis paragraph]
+    **Business Quality:** [ROIC, moats, management assessment]
+    **Valuation Analysis:** 
+    - Intrinsic Value Range: [DCF range vs current price]
+    - [Key valuation metrics]
+    - Margin of safety: [Specific percentage]
+    **Risk Assessment:** [Key risks and scenarios]
+    **Recommendation:** [Specific action with rationale]
+    [Repeat for each holding]
+    
+    ## Weekly Execution Schedule
+    
+    ### Week 1 Execution
+    - **SELL [X shares SYMBOL]** at limit $[price]+ ([rationale])
+    - **BUY [X shares SYMBOL]** at limit $[price] or below ([rationale])
+    
+    ### Week 2-4 Execution
+    [Continue weekly breakdown with specific limit orders]
+    
+    ## Implementation Plan
+    
+    ### Medium-term Strategy (3-12 Months)
+    [Detailed medium-term recommendations]
+    
+    ### Risk Management Framework
+    [Position sizing rules, stop losses, rebalancing triggers]
+    
+    ## Critical Reflection & Best-in-Class Validation
+    
+    ### Recommendation Quality Check
+    **BUY Recommendations Validation:**
+    [For each BUY recommendation, confirm it's the best-in-class option and explain why it was chosen over alternatives]
+    
+    **ETF Selection Rationale:**
+    [Justify each ETF recommendation with comparison to alternatives - why SCHD vs VYM vs VIG for dividends, why XLV vs other healthcare options, etc.]
+    
+    **Hold/Sell Decision Validation:**
+    [Challenge each HOLD and SELL decision - confirm these are optimal choices given investor goals]
+    
+    **Alternative Analysis:**
+    [Brief consideration of alternative stocks/ETFs that could serve similar purposes and why the chosen recommendations are superior]
+    
+    ## Expected Portfolio Outcomes
+    
+    ### Risk-Return Profile Changes
+    [Expected returns, volatility, drawdown improvements]
+    
+    ### Valuation Metrics Post-Rebalancing
+    [Portfolio P/E, margin of safety, diversification improvements]
+    
+    Provide only the markdown analysis - no preamble, epilogue, or extra commentary outside the structured report.
   </output_format>
-</stock_analysis>
+</portfolio_analysis>
