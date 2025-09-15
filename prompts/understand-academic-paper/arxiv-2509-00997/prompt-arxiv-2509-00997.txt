@@ -6,7 +6,7 @@
 
     <reading_time_estimate>
       First, estimate the reading time for the original paper based on:
-      - Word count and page length
+      - Word count and page length1
       - Subject matter complexity (basic, intermediate, advanced, highly technical)
       - Number of tables, diagrams, equations, and figures
       - Dense mathematical content or specialized terminology
