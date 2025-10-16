@@ -37,3 +37,4 @@ Thumbs.db
 *.csv
 logs/
 output/
+.scratchpad/
