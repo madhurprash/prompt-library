@@ -1,5 +1,5 @@
 <paper_analysis>
-  <paper_url>INSERT_YOUR_PAPER_URL_HERE</paper_url>
+  <paper_url>https://arxiv.org/pdf/2510.11977</paper_url>
 
   <instructions>
     Please analyze this academic paper using the Feynman Technique. Follow these four steps systematically:

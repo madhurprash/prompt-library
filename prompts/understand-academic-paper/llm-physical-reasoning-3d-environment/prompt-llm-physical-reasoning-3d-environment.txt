@@ -1,5 +1,5 @@
 <paper_analysis>
-  <paper_url>INSERT_YOUR_PAPER_URL_HERE</paper_url>
+  <paper_url>https://arxiv.org/pdf/2410.23242v2</paper_url>
 
   <instructions>
     Please analyze this academic paper using the Feynman Technique. Follow these four steps systematically:
@@ -62,8 +62,8 @@
 
   <output_format>
     Structure your response with clear headers for each section. Use markdown formatting.
-    Always include both the paper title and the original paper URL at the beginning of your analysis for easy reference.
-
+    Always include the original paper URL at the beginning of your analysis for easy reference.
+    
     Include a "Reading Time Analysis" section that shows:
     - Estimated time to read original paper thoroughly
     - Estimated time to read this analysis
